@@ -1,3 +1,5 @@
+use aoc_runner_derive::{aoc, aoc_generator};
+
 #[aoc_generator(day2)]
 pub fn input_generator(input: &str) -> Vec<Password> {
     input
